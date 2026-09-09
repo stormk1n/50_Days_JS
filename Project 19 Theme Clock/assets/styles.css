@@ -71,4 +71,20 @@ body {
     left: 50%;
     height: 65px;
     width: 3px;
+    transform-origin: bottom center;
+}
+
+.needle.hour{
+    transform: translate(-50%, -100%) rotate(0deg);
+}
+
+.needle.minute{
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+}
+
+.needle.second{
+    transform: translate(-50%, -100%) rotate(0deg);
+    height: 100px;
+    background-color: #e74c3c;
 }
