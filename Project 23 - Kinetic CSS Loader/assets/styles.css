@@ -34,6 +34,7 @@ body {
 
 .kinetic::before {
     transform: rotate(90deg);
+    animation: rotateB 2s linear infinite;
 }
 
 @keyframes rotateA {
@@ -50,5 +51,22 @@ body {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateB {
+
+    0%,
+    25% {
+        transform: rotate(90deg)
+    }
+
+    50%,
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(450deg);
     }
 }
