@@ -22,5 +22,6 @@ Each day focuses on a specific concept, challenge, or project. The goal is to be
 * HTML5
 * CSS3
 * JavaScript
+* REST APIs
 * Git & GitHub
 
